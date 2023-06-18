@@ -1,0 +1,9 @@
+<net.rptools.maptool.model.Asset>
+  <id>
+    <id>7647e1749ff5d851bc75dcc4f715f1ba</id>
+  </id>
+  <name>Programming-To-Do-icon</name>
+  <extension>png</extension>
+  <type>image</type>
+  <image/>
+</net.rptools.maptool.model.Asset>

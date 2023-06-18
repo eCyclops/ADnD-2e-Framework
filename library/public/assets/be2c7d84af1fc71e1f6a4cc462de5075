@@ -1,0 +1,9 @@
+<net.rptools.maptool.model.Asset>
+  <id>
+    <id>be2c7d84af1fc71e1f6a4cc462de5075</id>
+  </id>
+  <name>blood-icon</name>
+  <extension>png</extension>
+  <type>image</type>
+  <image/>
+</net.rptools.maptool.model.Asset>

@@ -1,0 +1,9 @@
+<net.rptools.maptool.model.Asset>
+  <id>
+    <id>8c7f0fb9107db7f50f3192b27ab2c1e9</id>
+  </id>
+  <name>Character Writing</name>
+  <extension>png</extension>
+  <type>image</type>
+  <image/>
+</net.rptools.maptool.model.Asset>

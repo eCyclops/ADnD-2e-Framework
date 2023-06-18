@@ -1,0 +1,9 @@
+<net.rptools.maptool.model.Asset>
+  <id>
+    <id>eb887ec43ce2a2c38bf311b89193cdcb</id>
+  </id>
+  <name>ladder_gt</name>
+  <extension>png</extension>
+  <type>image</type>
+  <image/>
+</net.rptools.maptool.model.Asset>

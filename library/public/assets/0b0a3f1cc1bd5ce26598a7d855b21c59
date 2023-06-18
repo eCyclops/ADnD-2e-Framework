@@ -1,0 +1,9 @@
+<net.rptools.maptool.model.Asset>
+  <id>
+    <id>0b0a3f1cc1bd5ce26598a7d855b21c59</id>
+  </id>
+  <name>Prayer</name>
+  <extension>png</extension>
+  <type>image</type>
+  <image/>
+</net.rptools.maptool.model.Asset>

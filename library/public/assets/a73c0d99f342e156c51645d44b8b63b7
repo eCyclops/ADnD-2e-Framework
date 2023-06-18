@@ -1,0 +1,9 @@
+<net.rptools.maptool.model.Asset>
+  <id>
+    <id>a73c0d99f342e156c51645d44b8b63b7</id>
+  </id>
+  <name>black knight</name>
+  <extension>gif</extension>
+  <type>image</type>
+  <image/>
+</net.rptools.maptool.model.Asset>

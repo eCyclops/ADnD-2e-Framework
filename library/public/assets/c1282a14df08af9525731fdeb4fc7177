@@ -1,0 +1,9 @@
+<net.rptools.maptool.model.Asset>
+  <id>
+    <id>c1282a14df08af9525731fdeb4fc7177</id>
+  </id>
+  <name>monster_manual</name>
+  <extension>jpeg</extension>
+  <type>image</type>
+  <image/>
+</net.rptools.maptool.model.Asset>
