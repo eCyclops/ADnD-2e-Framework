@@ -1,0 +1,14 @@
+{
+    "name": "AD&D First Edition",
+    "version": "0.1.0",
+    "website": "ecyclops.com",
+    "gitUrl": "github.com.ecyclops.adnd",
+    "authors": ["eCyclops"],
+    "license": "GPL 3",
+    "namespace": "com.ecyclops.adnd",
+    "description": "Library of macros for a First (or Second?) Edition campaign of the world's most popular fantasy role playing game",
+    "shortDescription": "AD&D Library",
+    "allowsUriAccess": true,
+    "licenseFile": "license.txt",
+    "readMeFile": "README.md"
+  }
