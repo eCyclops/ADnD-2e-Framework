@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: thisToken = getSelected()]\n[h, foreach(rotToken, thisToken): setTokenFacing(90,rotToken)]",
+            "label": "<span style=\"font-size: x-large\">&#x21e7</span>",
+            "group": "Set Facing",
+            "sortby": "1",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Set Token Facing to North"
+          }

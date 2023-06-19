@@ -1,0 +1,14 @@
+{
+  "name": "Lib:JDWMT:Macros",
+  "version": "unknown",
+  "website": "",
+  "gitUrl": "",
+  "authors": [""],
+  "license": "",
+  "namespace": "JDWMT:Macros",
+  "description": "",
+  "shortDescription": "",
+  "allowsUriAccess": false,
+  "licenseFile": "",
+  "readMeFile": ""
+}

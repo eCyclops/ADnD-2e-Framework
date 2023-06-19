@@ -1,0 +1,14 @@
+{
+  "name": "Lib:Markdown",
+  "version": "unknown",
+  "website": "",
+  "gitUrl": "",
+  "authors": [""],
+  "license": "",
+  "namespace": "Markdown",
+  "description": "",
+  "shortDescription": "",
+  "allowsUriAccess": false,
+  "licenseFile": "",
+  "readMeFile": ""
+}

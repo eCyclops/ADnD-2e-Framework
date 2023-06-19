@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: ids = getPC()]\n[h: today = getLibProperty(\"currentYearDate\", \"Lib:Calendar\")]\n[h: noBirthdays = 1]\n[foreach(id, ids,\"\"), code: {\n\t[if(getProperty(\"birthdate\", id)==today), code: {\n\t\t[h: noBirthdays = 0]\n\t\t[r:\"It's \"+getName(id)+\"'s birthday.<br>\"]\n\t};{}]\n}]\n[r, if(noBirthdays): \"No one has a birthday today.\"]",
+            "label": "Birthdays",
+            "group": "3. DM Tools",
+            "sortby": null,
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          },

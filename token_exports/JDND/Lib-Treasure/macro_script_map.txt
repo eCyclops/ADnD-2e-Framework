@@ -1,0 +1,15 @@
+macro_7.mts => gemPile
+macro_5.mts => gemTest
+macro_1.mts => scroll
+macro_11.mts => jewelBase
+macro_4.mts => gemVariation
+macro_8.mts => gemProperties
+macro_9.mts => makeTable2
+macro_10.mts => jewelVariation
+macro_6.mts => gems
+macro_2.mts => makeTable
+macro_12.mts => jewelPile
+macro_0.mts => treasureType
+macro_13.mts => jewels
+macro_3.mts => gemBase
+onCampaignLoad.mts => onCampaignLoad

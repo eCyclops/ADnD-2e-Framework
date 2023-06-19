@@ -1,0 +1,14 @@
+{
+  "name": "Lib:Update Database",
+  "version": "unknown",
+  "website": "",
+  "gitUrl": "",
+  "authors": [""],
+  "license": "",
+  "namespace": "Update Database",
+  "description": "",
+  "shortDescription": "",
+  "allowsUriAccess": false,
+  "licenseFile": "",
+  "readMeFile": ""
+}

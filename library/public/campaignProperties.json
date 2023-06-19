@@ -1,4 +1,5 @@
-"campaignProperties": {
+{
+  "campaignProperties": {
         "tokenTypeMap": {
           "entry": [
             {
@@ -13734,3 +13735,4 @@
         "initiativeUseReverseSort": "false",
         "initiativePanelButtonsDisabled": "false"
       }
+    }

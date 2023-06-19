@@ -1,0 +1,17 @@
+prop_12.txt => Charisma
+prop_13.txt => AC
+prop_14.txt => Dexterity
+prop_15.txt => idIncrement
+prop_16.txt => Description
+prop_17.txt => Movement
+prop_18.txt => Intelligence
+prop_19.txt => HP
+prop_20.txt => temporaryLinkTimeout
+prop_21.txt => Defense
+prop_22.txt => Elevation
+prop_23.txt => Wisdom
+prop_24.txt => temporaryLinkUses
+prop_25.txt => idLastTimeStamp
+prop_26.txt => temporaryLinkList
+prop_27.txt => Strength
+prop_28.txt => Constitution

@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: timeandtemp()]",
+            "label": "Time and Temperature",
+            "group": "2. Time",
+            "sortby": null,
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          },

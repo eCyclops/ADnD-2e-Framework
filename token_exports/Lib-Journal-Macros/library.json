@@ -1,0 +1,14 @@
+{
+  "name": "Lib:Journal:Macros",
+  "version": "unknown",
+  "website": "",
+  "gitUrl": "",
+  "authors": [""],
+  "license": "",
+  "namespace": "Journal:Macros",
+  "description": "",
+  "shortDescription": "",
+  "allowsUriAccess": false,
+  "licenseFile": "",
+  "readMeFile": ""
+}

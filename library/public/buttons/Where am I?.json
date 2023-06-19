@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: myName = getPlayerName()]\n[h: mapList = getVisibleMapNames()]\n\n[h: targetList = \"\"]\n[h: outputTargetList = \"\"]\n[h, foreach(checkMap,mapList,\"\"), code: {\n\t[h: foundTokens = getOwned(myName, \",\", checkMap)]\n\t[h, foreach(tokenID,foundTokens), code: {\n\t\t[h: targetList = listAppend(targetList,tokenID + \",\" + checkMap, \";\")]\n\n\t\t[h: tokenName = getName(tokenID,checkMap)]\n\t\t[h: tokenImageID = getTokenImage(\"\",tokenID,checkMap)]\n\t\t[h: outputTargetList = listAppend(outputTargetList,\"<html><b>\" + tokenName + \"</b><br><i>\" + checkMap + \"</i></html> \" + tokenImageID, \";\")]\n\t}]\n}]\n[h, if(targetList == \"\"): assert(0,\"No token found.\",0)]\n\n[h: foundCount = listCount(targetList,\";\")]\n[h, if(foundCount > 1), code: {\n\t[h: dialog1 = input(\n\t\t\"junkVar|Which token do you want to find?|Select a token|LABEL|SPAN=TRUE\",\n\t\t\"targetTokenListID|\"+outputTargetList+\"|Token|LIST|VALUE=NUMBER DELIMITER=; ICON=TRUE SPAN=TRUE\"\n\t)]\n\t[h: abort(dialog1)]\n\t[h: targetToken = listGet(targetList,targetTokenListID,\";\")]\n};\n{\n\t[h: targetToken = listGet(targetList,0,\";\")]\n}]\n\n[h: setCurrentMap(listGet(targetToken,1))]\n[h: goto(listGet(targetToken,0))]\n[h: setZoom(0.5)]",
+            "label": "Where am I?",
+            "group": "Help!",
+            "sortby": null,
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          }

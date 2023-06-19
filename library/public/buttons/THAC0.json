@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[if (!isOwner() && !isGM()), code :{\n\tYou are not the owner of this token.<br>\n\t[h: abort(0)]\n};{}]\n\n[h: '<!-- gets the THACO property from the token and generates a table of AC v DiceRoll required for that AC -->']\n\n[h: assert(getSelected()!='',\"You must select token(s) to use this command.\",0)]\n\n[h: thaco = getProperty(\"THACO\")]\n\n[h: assert(thaco!='',\"No THACO property found.\",0)]\n\n[h: thacoTXT = \"<table bgcolor=orange><caption>\"+getName()+\"</caption>\"+getTHACOWindow(thaco)+\"</table>\"]\n[h: broadcast(thacoTXT,getPlayerName())]",
+            "label": "THACO",
+            "group": "0. Combat",
+            "sortby": null,
+            "autoExecute": "true",
+            "applyToTokens": "true",
+            "toolTip": "Show THACO table for selected token."
+          }

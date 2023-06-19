@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h:assert(isGM(),\"This is a DM command.\",0)]\n\n[h, macro(\"getPCSelectList@Lib:ADND\"):\"finishingMacro=Reward_EXP_Individual;\"]",
+            "label": "+Give",
+            "group": "4. Rewards",
+            "sortby": "3",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Give individual experience award to selected Player(s) right now."
+          },

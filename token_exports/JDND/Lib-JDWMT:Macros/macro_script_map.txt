@@ -1,0 +1,5 @@
+macro_1.mts => DoAddProperty
+macro_0.mts => AddProperty
+macro_2.mts => showImage
+onCampaignLoad.mts => onCampaignLoad
+macro_3.mts => Multi-token Property Editor

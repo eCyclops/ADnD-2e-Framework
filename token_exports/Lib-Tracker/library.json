@@ -1,0 +1,14 @@
+{
+  "name": "Lib:Tracker",
+  "version": "unknown",
+  "website": "",
+  "gitUrl": "",
+  "authors": [""],
+  "license": "",
+  "namespace": "Tracker",
+  "description": "",
+  "shortDescription": "",
+  "allowsUriAccess": false,
+  "licenseFile": "",
+  "readMeFile": ""
+}

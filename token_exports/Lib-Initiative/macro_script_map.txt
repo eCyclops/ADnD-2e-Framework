@@ -1,0 +1,14 @@
+macro_3.mts => CSS
+macro_5.mts => Initiative Window
+macro_8.mts => NPC_Initiative
+macro_4.mts => Initiative
+macro_6.mts => Next Round
+macro_12.mts => (new)
+macro_0.mts => Next
+macro_9.mts => PC_Initiative
+macro_10.mts => Clear Initiative Flags
+macro_11.mts => listPCTokensOutsideInitiative
+macro_2.mts => End
+macro_1.mts => Roll
+onCampaignLoad.mts => onCampaignLoad
+macro_7.mts => DO_Initiative

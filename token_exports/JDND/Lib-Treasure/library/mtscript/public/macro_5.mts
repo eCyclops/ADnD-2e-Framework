@@ -1,0 +1,26 @@
+[h: gemValue = arg(0)]
+[h: modRoll = "d10"]
+
+[h: modRoll = eval(modRoll)]
+
+[r: "The roll result is "+modRoll]
+
+[if(gemValue >= 500000)                     : gemValue = 1000000]
+[if(gemValue >= 250000 && gemValue < 500000): gemValue =  500000]
+[if(gemValue >= 100000 && gemValue < 250000): gemValue =  250000]
+[if(gemValue >=  50000 && gemValue < 100000): gemValue =  100000]
+[if(gemValue >=  25000 && gemValue <  50000): gemValue =   50000]
+[if(gemValue >=  10000 && gemValue <  25000): gemValue =   25000]
+[if(gemValue >=   5000 && gemValue <  10000): gemValue =   10000]
+[if(gemValue >=   1000 && gemValue <   5000): gemValue =    5000]
+[if(gemValue >=    500 && gemValue <   1000): gemValue =    1000]
+[if(gemValue >=    100 && gemValue <    500): gemValue =     500]
+[if(gemValue >=     50 && gemValue <    100): gemValue =     100]
+[if(gemValue >=     10 && gemValue <     50): gemValue =      50]
+[if(gemValue >=      5 && gemValue <     10): gemValue =      10]
+[if(gemValue >=      1 && gemValue <      5): gemValue =       5]
+[if(gemValue >=    0.5 && gemValue <      1): gemValue =       1]
+[if(gemValue >=   0.25 && gemValue <    0.5): gemValue =     0.5]
+[if(gemValue >=   0.05 && gemValue <   0.25): gemValue =    0.25]
+<br>
+[r:"The gem value is "+gemValue]

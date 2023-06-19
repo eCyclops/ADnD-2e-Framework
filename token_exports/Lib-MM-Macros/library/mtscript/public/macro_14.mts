@@ -1,0 +1,26 @@
+[h: npcJSON = json.set("{}",
+		"name","New Creature",
+		"climate","Subterranean",
+		"frequency","Common",
+		"organization","Solitary",
+		"activity","Any",
+		"diet","Carnivore",
+		"intelligence","Non",
+		"treasure","NA",
+		"alignment","Neutral",
+		"numAppearing","1",
+		"ac","10",
+		"move","12",
+		"hitDice","1",
+		"thaco","20",
+		"numAttacks","1",
+		"damage","1d6",
+		"specialAttacks","NA",
+		"specialDefense","NA",
+		"magicResistance","NA",
+		"size","Medium",
+		"morale","10",
+		"xp","1"
+		)]
+
+[h: macro.return = npcJSON]

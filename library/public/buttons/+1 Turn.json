@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: incrementTurn(1)]",
+            "label": "+1 Turn",
+            "group": "2. Time",
+            "sortby": "3",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          },

@@ -1,0 +1,1 @@
+usecrit=20 ; usefumble=1 ; initiativedice=10 ; privatemode=1 ; hiddenMode=1 ; initiativeOnce=0 ; privateAttackMode=0 ; autoLoadNPCSheet=1 ; versionSpellDB=1e ; versionMonsterDB=1e ; versionEquipmentDB=1e ; versionSkillsDB=1e ; npcCanCrit=0

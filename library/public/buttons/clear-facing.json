@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: thisToken = getSelected()]\n[h, foreach(rotToken, thisToken): removeTokenFacing(rotToken)]",
+            "label": "&nbsp;",
+            "group": "Set Facing",
+            "sortby": "5",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Clear Token Facing"
+          }

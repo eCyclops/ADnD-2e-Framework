@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: incrementTurn(number_of_Hours*6)]",
+            "label": "+Hour",
+            "group": "2. Time",
+            "sortby": "2",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          },

@@ -1,0 +1,6 @@
+prop_13.txt => JournalsTagVar
+prop_14.txt => journalentry.Treasure+Found
+prop_15.txt => journalentry.test
+prop_16.txt => journalentry.Barakus%3A+Discoveries
+prop_17.txt => journalentry.GM%3A+Realm+Notes%3A+Lord+Foul
+prop_18.txt => journalentry.test2

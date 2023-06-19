@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: incrementRound(number_of_Days*1440)]",
+            "label": "+Date",
+            "group": "2. Time",
+            "sortby": "1",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          },

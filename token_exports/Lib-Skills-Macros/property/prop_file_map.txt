@@ -1,0 +1,4 @@
+prop_39.txt => Skills
+prop_40.txt => Profs
+prop_41.txt => dbVersion
+prop_42.txt => Profs_Combat

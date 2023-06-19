@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h, macro(\"Tracker Frame@Lib:Tracker\"): \"\"]",
+            "label": "Tracker",
+            "group": "Help!",
+            "sortby": null,
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          }

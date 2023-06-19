@@ -1,0 +1,12 @@
+{
+  "properties": [{
+    "filename": "public/macro_1.mts",
+    "autoExecute": true
+  }, {
+    "filename": "public/macro_0.mts",
+    "autoExecute": true
+  }, {
+    "filename": "public/onCampaignLoad.mts",
+    "autoExecute": true
+  }]
+}

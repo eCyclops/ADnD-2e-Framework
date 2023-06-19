@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: assert(isGM(),\"This is a DM command.\",0)]\n\n[h: assert(getSelected()!='',\"You must select token(s) to use this command.\",0)]\n\n[h, macro(\"InitToken@Lib:ADND\"):'']",
+            "label": "Initialize Token",
+            "group": "3. DM Tools",
+            "sortby": "4",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Configure selected token(s) as PC/NPCs w/macros and properties."
+          },

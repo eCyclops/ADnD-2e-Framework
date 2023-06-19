@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: myID = getSelected()]\n[h: XPvalue = getProperty(\"XP\",myID)]\n[newValue = eval(XPvalue)]\nSetting XP value to [r: newValue].\n[h: setProperty(\"XP\", newValue,myID)]",
+            "label": "set XP",
+            "group": "3. DM Tools",
+            "sortby": null,
+            "autoExecute": "true",
+            "applyToTokens": "true",
+            "toolTip": null
+          },

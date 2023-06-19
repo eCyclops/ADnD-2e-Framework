@@ -1,0 +1,5 @@
+[h: '<!-- cap first letter in string -->']
+[H: numArgs = argCount()]
+[h: assert(!(numArgs<1),"To few arguments to function "+getMacroName()+"(String). "+getMacroName()+"@"+getMacroLocation())]
+[H: someString = arg(0) ]
+[h: macro.return = upper(someString,1)]

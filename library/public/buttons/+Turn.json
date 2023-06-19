@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: incrementTurn(number_of_Turns)]",
+            "label": "+Turn",
+            "group": "2. Time",
+            "sortby": "3",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          },

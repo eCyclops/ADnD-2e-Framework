@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: assert(isGM(),\"This is a DM command.\",0)]\n\n[h: updateStates(10)]",
+            "label": "+1Turn",
+            "group": "2. Time",
+            "sortby": "6",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Advance time by 1 turn."
+          },

@@ -1,0 +1,1 @@
+[h: macro.return = profsSheet_activeWeapons(arg(0))]

@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h:assert(isGM(),\"This is a DM command.\",0)]\n[h: '<!-- Teleport all player tokens to selected token or to Teleport_Start if it exists on the current map -->']\n\n[h: selected = getSelected()]\n[h, if(selected == ''):selected = findToken(\"Teleport_Start\")]\n\n[h, macro(\"Teleport_gatherTokenList@Lib:ADND\"):strformat(\"mySelected=%{selected};\")]",
+            "label": "PC:Teleport",
+            "group": "3. DM Tools",
+            "sortby": "10",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Teleport ALL PC tokens to the currently selected token. USE WITH CARE."
+          },

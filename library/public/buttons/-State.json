@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: assert(isGM(),\"This is a DM command.\",0)]\n\n[h, macro('editStates@Lib:ADND'):'']",
+            "label": "-State",
+            "group": "0. Combat",
+            "sortby": "6",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Edit states for tokens in campaign."
+          }

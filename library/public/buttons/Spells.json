@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: assert(isGM(),\"This is a DM command.\",0)]\n\n[macro(\"Manage Main@Lib:Spells:Macros\"):\"\"]",
+            "label": "Spells",
+            "group": "DB",
+            "sortby": null,
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          }

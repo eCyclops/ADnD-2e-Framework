@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h:assert(isGM(),\"This is a DM command.\",0)]\n\n[h, macro(\"getPCSelectList@Lib:ADND\"):\"\"]",
+            "label": "Grant",
+            "group": "4. Rewards",
+            "sortby": "2",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Grant Party experience earned for adventure/kills so far."
+          },

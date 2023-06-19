@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[if (!isGM()), code: {\n\tYou must be the GM to use this macro.<br>\n\t[h: abort(0)]\n}; {}]\n\n[ macro( \"mainFrame.Tokens@Lib:TokenManager_v2.0\" ): \"\" ]\n[ abort(0)]",
+            "label": "Open Token Manager",
+            "group": "3. DM Tools",
+            "sortby": "16",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "(copy to Campaign panel)"
+          },

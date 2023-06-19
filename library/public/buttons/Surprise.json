@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: assert(isGM(),\"This is a DM command.\",0)]\n\n[h, macro(\"Surprise@Lib:ADND\"): \"\"]",
+            "label": "Surprise",
+            "group": "1. Initiative",
+            "sortby": "0",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          }

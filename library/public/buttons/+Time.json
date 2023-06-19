@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: assert(isGM(),\"This is a DM command.\",0)]\n\n[h, macro('updateStates@Lib:ADND'):'']",
+            "label": "+Time",
+            "group": "2. Time",
+            "sortby": "4",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Advance time for affect/states by variable amount (round, turn, hour, day)"
+          },

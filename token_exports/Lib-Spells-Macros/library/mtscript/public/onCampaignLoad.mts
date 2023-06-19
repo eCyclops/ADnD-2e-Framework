@@ -1,0 +1,12 @@
+<!-- User Defined Functions -->
+[defineFunction("getShowSpellToolTip", "getShowSpellToolTip@Lib:Spells:Macros")]
+[defineFunction("okToMemorizeSpell", "okToMemorizeSpell@Lib:Spells:Macros")]
+[defineFunction("getSpellJSON", "getSpellJSON@Lib:Spells:Macros")]
+[defineFunction("askMemorizeOrForget", "askMemorizeOrForget@Lib:Spells:Macros")]
+[defineFunction("listMySpells", "listMySpells@Lib:Spells:Macros")]
+[defineFunction("canCastSpells", "canCastSpells@Lib:Spells:Macros")]
+[defineFunction("getSpellWindow", "getSpellWindow@Lib:Spells:Macros")]
+[defineFunction("getNPCSpellWindow", "getNPCSpellWindow@Lib:Spells:Macros")]
+[defineFunction("getSpellSlotTxt", "getSpellSlotTxt@Lib:Spells:Macros")]
+[defineFunction("hasMemorizedSpells", "hasMemorizedSpells@Lib:Spells:Macros")]
+[defineFunction("getUsedSpellSlots", "getUsedSpellSlots@Lib:Spells:Macros")]

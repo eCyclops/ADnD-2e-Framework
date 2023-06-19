@@ -1,0 +1,6 @@
+[defineFunction("addStateToToken", "addStateToToken@Lib:States")]
+[defineFunction("updateStates", "updateStates@Lib:States")]
+[defineFunction("deleteState", "deleteState@Lib:States")]
+[defineFunction("addState", "addState@Lib:States")]
+[defineFunction("editStates", "editStates@Lib:States")]
+[defineFunction("sanitize", "Sanitize String@Lib:States")]

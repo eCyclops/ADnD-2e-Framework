@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: assert(isGM(),\"This is a DM command.\",0)]\n\n[h: C_Settings()]",
+            "label": "Campaign Settings",
+            "group": "3. DM Tools",
+            "sortby": "11",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Configure Campaign variables."
+          },

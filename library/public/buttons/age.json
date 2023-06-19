@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h:assert(isGM(),\"This is a DM command.\",0)]\n[h: assert(getSelected()!='',\"You must select token(s) to use this command.\",0)]\n\n[h: myIDs = getSelected()]\n\n[foreach(myID,myIDs,\"<br>\"), code: {\n\n[h: myName = getName(myID)]\n\n[h: assert(hasProperty(\"birthdate\",myID),\"I don't know \"+myName+\"'s birth date.\")]\n[h: myBirthday = getProperty(\"birthdate\", myID)]\n[h: myBirthYear = getProperty(\"birthyear\", myID)]\n[h: myGender = getProperty(\"sex\", myID)]\n[h, if(myGender == \"m\"): pronoun = \"his\"; pronoun = \"her\"]\n[h: varsFromStrProp(getDate(myBirthday))]\n\n[h: thisDay = getLibProperty(\"currentYearDate\", \"Lib:Calendar\")]\n\n[h: myAge = getYear() - myBirthYear]\n[h, if(myBirthday < thisDay): myAge = myAge +1]\n\n[h: charDetails = getProperty(\"Character_Details\", myID)]\n[h: charDetails = setStrProp(charDetails, \"Age\", myAge)]\n[h: setProperty(\"Character_Details\", charDetails, myID)]\n\n[h: dayShift = myBirthday - thisDay]\n\n[h: since=\"\"]\n[h, if(dayShift > 0):since=dayShift+\" days until \"]\n[h, if(dayShift < 0):since=(-1)*dayShift+\" days since \"]\n\n[r: strformat(\"%{myName} is %{myAge} years old, and it's %{since} %{pronoun} birthday.\")]\n}]\n[r: strformat(\"%s birthday is on %{theDate} %{month} %{myBirthYear}\", capitalize(pronoun))]",
+            "label": "age",
+            "group": "3. DM Tools",
+            "sortby": null,
+            "autoExecute": "true",
+            "applyToTokens": "true",
+            "toolTip": null
+          },

@@ -1,0 +1,14 @@
+macro_3.mts => Tracker
+macro_13.mts => Player Item
+macro_4.mts => CSS
+macro_7.mts => Tracked Item
+macro_10.mts => SVG Icons
+macro_12.mts => GM Item
+macro_11.mts => Change Player Visibility
+macro_2.mts => Remove from Tracker
+macro_9.mts => Teleport
+macro_0.mts => Tracker Frame
+macro_6.mts => Auto Refresh Tracker
+macro_8.mts => Missing Track
+macro_5.mts => Find
+macro_1.mts => Add to Tracker

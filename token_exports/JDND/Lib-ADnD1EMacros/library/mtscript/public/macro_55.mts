@@ -1,0 +1,20 @@
+[h: tableName = "BirthOrder"]
+
+[h: assert(!listContains(getTableNames(),tableName),"Table "+tableName+" exists.")]
+
+[r: "Creating table " + tableName]
+[h: createTable(tableName,1,1)]
+
+[addTableEntry(tableName, 1, 5,"Only child")]
+[addTableEntry(tableName, 6,10,"1st child")]
+[addTableEntry(tableName,11,20,"2nd child")]
+[addTableEntry(tableName,21,35,"3rd child")]
+[addTableEntry(tableName,36,50,"4th child")]
+[addTableEntry(tableName,51,65,"5th child")]
+[addTableEntry(tableName,66,80,"6th child")]
+[addTableEntry(tableName,81,85,"7th child")]
+[addTableEntry(tableName,86,90,"8th child")]
+[addTableEntry(tableName,91,94,"9th child")]
+[addTableEntry(tableName,95,97,"10th child")]
+[addTableEntry(tableName,98,99,"11th child")]
+[addTableEntry(tableName,100,100,"12th child")]

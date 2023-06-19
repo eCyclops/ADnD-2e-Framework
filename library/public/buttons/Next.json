@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h, macro(\"Next@Lib:Initiative\"): \"\"]",
+            "label": "Next",
+            "group": "1. Initiative",
+            "sortby": "2",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "Cycle to next PC/NPC in the round."
+          }

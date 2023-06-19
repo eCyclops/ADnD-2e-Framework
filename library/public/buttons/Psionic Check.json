@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: INT = getProperty(\"Intelligence\", getSelected())]\n[h: WIS = getProperty(\"Wisdom\", getSelected())]\n[h: CHA = getProperty(\"Charisma\", getSelected())]\n\n[h: tryIt = false]\n\n[h, if((INT > 15) || (WIS > 15) || (CHA > 15)): tryIt = true]\n\n[h: mod = 0]\n\n[h, if(INT > 16): mod = mod + (INT - 16)*2.5]\n[h, if(WIS > 16): mod = mod + (WIS - 16)*1.5]\n[h, if(CHA > 16): mod = mod + (CHA - 16)*0.5]\n\n[h: mod = round(mod)]\n\n[h: theChance = d100+mod]\n\n[r, if(tryIt): strformat(\"Your chance of Psionics is %d\", theChance);\"You are not Psionic.\"]",
+            "label": "Psionic Check",
+            "group": "3. DM Tools",
+            "sortby": null,
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          },

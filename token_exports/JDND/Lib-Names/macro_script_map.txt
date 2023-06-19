@@ -1,0 +1,3 @@
+macro_1.mts => newName
+macro_0.mts => makeTable
+onCampaignLoad.mts => onCampaignLoad

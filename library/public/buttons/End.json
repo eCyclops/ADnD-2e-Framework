@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h, macro(\"End@Lib:Initiative\"): \"\"]",
+            "label": "End",
+            "group": "1. Initiative",
+            "sortby": "3",
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": "End encounter."
+          },

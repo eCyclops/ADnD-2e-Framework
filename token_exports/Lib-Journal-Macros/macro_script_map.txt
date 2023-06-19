@@ -1,0 +1,14 @@
+macro_1.mts => add
+macro_5.mts => listJournalEntries
+macro_10.mts => editJournalFormParse
+macro_0.mts => edit
+macro_9.mts => editJournal
+macro_2.mts => delete
+macro_3.mts => Manage Main
+macro_12.mts => Journal CSS
+macro_7.mts => addJournal
+macro_4.mts => editFormParse
+macro_6.mts => viewJournalEntry
+macro_8.mts => deleteJournal
+onCampaignLoad.mts => onCampaignLoad
+macro_11.mts => ManageJournal

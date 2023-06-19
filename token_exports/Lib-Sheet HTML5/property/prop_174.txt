@@ -1,0 +1,1 @@
+Attack Melee,Attack Ranged,Charge,Flee,Fighting Retreat,Move,Cast On Enemy,Cast On Friendly,Other

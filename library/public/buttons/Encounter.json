@@ -1,0 +1,10 @@
+          {
+            "saveLocation": "CampaignPanel",
+            "command": "[h: assert(isGM(),\"This is a DM command.\",0)]\n[h: myTable = \"Dungeon\"+Level+\"Temple\"]\n[g,r: table(myTable)]",
+            "label": "Encounter",
+            "group": "3. DM Tools",
+            "sortby": null,
+            "autoExecute": "true",
+            "applyToTokens": "false",
+            "toolTip": null
+          },
